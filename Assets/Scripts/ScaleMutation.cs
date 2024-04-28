@@ -1,10 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class CapsuleMutation : MonoBehaviour
+public class ScaleMutation : MonoBehaviour
 {
     [SerializeField] private float _mutationSpeed;
+
     private Vector3 _delta;
 
     private void Update()
